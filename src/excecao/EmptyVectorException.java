@@ -1,8 +1,10 @@
 package excecao;
 
+import cores.Color;
+
 public class EmptyVectorException extends Exception{
 
     public EmptyVectorException() {
-        super("Vector is empty");
+        super(Color.RED_BACKGROUND+"ERROR Vector is empty!"+Color.RESET);
     }
 }

@@ -5,11 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55464e21-663b-459e-b045-9ab0a2fb20a4" name="Changes" comment="GUI up to case 3">
-      <change afterPath="$PROJECT_DIR$/src/negocio/ReserveRegisterInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cores/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excecao/KeyNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excecao/NoLevelException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excecao/ReserveNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excecao/SiapeIsInUseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excecao/TeacherNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fachada/SaeInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/negocio/KeyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/negocio/KeyRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/negocio/TeacherInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/negocio/TeacherRegister.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositorio/KeyRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositorio/ReserveRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repositorio/TeacherRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/negocio/RegisterReservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/negocio/ReserveRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dados/Key.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dados/Key.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dados/Reserve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dados/Reserve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dados/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dados/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/excecao/EmptyVectorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/excecao/EmptyVectorException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/excecao/FullVectorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/excecao/FullVectorException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/excecao/ReserveNotExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/excecao/ReserveNotFoundedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fachada/ReserveKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fachada/Sae.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/app.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/app.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/negocio/ReserveRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/negocio/ReserveRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/negocio/ReserveRegisterInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/negocio/ReserveInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repositorio/KeyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repositorio/KeyInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repositorio/KeyRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/repositorio/ReserveInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repositorio/ReserveInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/repositorio/ReserveRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repositorio/ReserveRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repositorio/ReserveRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repositorio/TeacherInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repositorio/TeacherInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repositorio/TeacherRepository.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,19 +47,36 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "aIlyson"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/aIlyson/PROG-2-IF.git",
+    "accountId": "613c55c6-e22a-448b-8609-05d708c79178"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="2IdJFaDFsHCk4cYNB9VpNJG54Zv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,16 +86,33 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Programação/PROJETOS/PROG-2",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/alyss/Downloads/PROG-2-IF",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="dados" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.24807.4" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.24807.4" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,6 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670505431289</updated>
+      <workItem from="1744553272187" duration="2226000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670506474278</created>
@@ -119,6 +182,9 @@
     </task>
     <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

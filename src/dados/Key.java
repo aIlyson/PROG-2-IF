@@ -2,20 +2,28 @@ package dados;
 
 public class Key {
 
-    private String name;
+    private String number;
     private String room;
-    public Key(String name, String room) {
+    private String minLevel;
 
-        this.name = "name";
-        this.room = "room";
+    public Key() {
+        this.number = "";
+        this.room = "";
+        this.minLevel = "";
     }
 
-    public String getName() {
-        return name;
+    public Key(String number, String room, String minLevel) {
+        this.number = number;
+        this.room = room;
+        this.minLevel = minLevel;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getNumber() {
+        return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
     }
 
     public String getRoom() {
@@ -26,4 +34,11 @@ public class Key {
         this.room = room;
     }
 
+    public String getMinLevel() {
+        return minLevel;
+    }
+
+    public void setMinLevel(String minLevel) {
+        this.minLevel = minLevel;
+    }
 }

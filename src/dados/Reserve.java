@@ -1,5 +1,7 @@
 package dados;
 
+import java.util.Date;
+
 public class Reserve {
     private Teacher teacher;
     private Key key;
@@ -17,9 +19,9 @@ public class Reserve {
         this.id = "";
     }
 
-    public Reserve(Teacher teacher, /*Key key,*/ String activity, String solicitation_hour, String devolution_hour, String id) {
+    public Reserve(Teacher teacher, Key key, String activity, String solicitation_hour, String devolution_hour, String id) {
         this.teacher = teacher;
-//        this.key = key;
+        this.key = key;
         this.activity = activity;
         this.solicitation_hour = solicitation_hour;
         this.devolution_hour = devolution_hour;
@@ -41,6 +43,7 @@ public class Reserve {
     public void setKey(Key key) {
         this.key = key;
     }
+
     public String getId() {
         return id;
     }
@@ -72,5 +75,4 @@ public class Reserve {
     public void setDevolution_hour(String devolution_hour) {
         this.devolution_hour = devolution_hour;
     }
-};
-
+}

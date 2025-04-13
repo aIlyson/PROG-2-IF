@@ -1,4 +1,4 @@
-package repositorio;
+package negocio;
 
 import dados.Key;
 import excecao.EmptyVectorException;
