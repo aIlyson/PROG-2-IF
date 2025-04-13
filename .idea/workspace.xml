@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55464e21-663b-459e-b045-9ab0a2fb20a4" name="Changes" comment="refactor: organize codebase">
+    <list default="true" id="55464e21-663b-459e-b045-9ab0a2fb20a4" name="Changes" comment="&#9;&#10;feat: teacher and reserve Persistance 90%">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RegistroChave.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RegistroChave.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670505431289</updated>
-      <workItem from="1744553272187" duration="2644000" />
+      <workItem from="1744553272187" duration="3163000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1670506474278</created>
@@ -159,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744555670747</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="&#9;&#10;feat: teacher and reserve Persistance 90%">
+      <option name="closed" value="true" />
+      <created>1744556049974</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744556049974</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +189,8 @@
     <MESSAGE value="GUI created" />
     <MESSAGE value="GUI up to case 3" />
     <MESSAGE value="refactor: organize codebase" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: organize codebase" />
+    <MESSAGE value="&#9;&#10;feat: teacher and reserve Persistance 90%" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#9;&#10;feat: teacher and reserve Persistance 90%" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PROG_2$app.ic" NAME="app Coverage Results" MODIFIED="1670549296171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
